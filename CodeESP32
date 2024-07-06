@@ -1,0 +1,53 @@
+#include <WiFi.h>
+#include <HTTPClient.h>
+
+const char* ssid = "Wifi_Perso_5G";
+const char* password = "9C737000708E";
+const char* serverUrl = "http://192.168.1.3:3000/douches"; // Utilisez votre adresse IP et votre port
+
+#define RX_PIN 16 // Broche GPIO de l'ESP32 connectée à TX de l'Arduino
+#define TX_PIN 17 // Broche GPIO de l'ESP32 connectée à RX de l'Arduino
+
+void setup() {
+  Serial.begin(115200, SERIAL_8N1, RX_PIN, TX_PIN); // Configurez les broches RX et TX pour la communication série
+  delay(4000);
+
+  Serial.println("Connecting to WiFi");
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(1000);
+    Serial.println("Connecting...");
+  }
+  Serial.println("Connected to WiFi");
+}
+
+void loop() {
+  if (Serial.available() > 0) {
+    String data = Serial.readStringUntil('\n');
+    if (data.startsWith("START:")) {
+      unsigned long startTime = data.substring(6).toInt();
+      sendDataToServer("START", startTime);
+    } else if (data.startsWith("END:")) {
+      unsigned long endTime = data.substring(4).toInt();
+      sendDataToServer("END", endTime);
+    }
+  }
+}
+
+void sendDataToServer(const String& type, unsigned long timestamp) {
+  HTTPClient http;
+  http.begin(serverUrl);
+  http.addHeader("Content-Type", "application/json");
+
+  String payload = "{\"type\":\"" + type + "\",\"timestamp\":" + String(timestamp) + "}";
+
+  int httpResponseCode = http.POST(payload);
+
+  if (httpResponseCode == HTTP_CODE_OK) {
+    Serial.println("Data sent successfully");
+  } else {
+    Serial.println("Error sending data");
+  }
+
+  http.end();
+}
