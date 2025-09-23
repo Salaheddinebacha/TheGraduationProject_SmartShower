@@ -66,7 +66,7 @@ TheGraduationProject\_SmartShower/
    npm install
    # or
    yarn
-````
+```
 
 2. Start the development server:
 
@@ -149,6 +149,7 @@ No part of this project may be copied, modified, distributed, or used without ex
 ```
 
 ```
+
 
 
 
