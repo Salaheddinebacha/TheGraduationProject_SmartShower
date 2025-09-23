@@ -140,12 +140,6 @@ No part of this project may be copied, modified, distributed, or used without ex
 * Arduino & ESP32 communities
 * Faculty and mentors who supported this graduation project
 
----
-
-
-
-```
-
 
 
 
