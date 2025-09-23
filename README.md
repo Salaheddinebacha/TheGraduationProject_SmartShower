@@ -53,7 +53,7 @@ ESP32 path: Arduino IDE or PlatformIO + ESP32 board package
    npm install
    # or
    yarn
-````
+```
 
 2. Start the development server:
 
@@ -122,6 +122,7 @@ For academic or research purposes, please contact the project owner before reuse
 
 **All Rights Reserved**
 No part of this project may be copied, modified, distributed, or used without explicit written permission from the author(s).
+
 
 
 
