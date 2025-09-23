@@ -4,7 +4,7 @@
 [![Expo](https://img.shields.io/badge/Expo-React%20Native-blue?logo=expo)](https://expo.dev/)  
 [![Arduino](https://img.shields.io/badge/Arduino-Sketch-green?logo=arduino)](https://www.arduino.cc/)  
 [![ESP32](https://img.shields.io/badge/ESP32-Microcontroller-orange?logo=espressif)](https://www.espressif.com/)  
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 
 A mobile-controlled **smart shower system** that monitors usage and enables safe, efficient water and energy management.  
 This project combines a **React Native (Expo)** mobile application with **Arduino/ESP32 firmware** to collect sensor data and control actuators.
@@ -147,4 +147,5 @@ All rights reserved.
 
 ```
 ```
+
 
