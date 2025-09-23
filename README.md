@@ -43,7 +43,7 @@ Firmware
 Arduino path: Arduino IDE 2.x + board drivers and sensor libraries
 
 ESP32 path: Arduino IDE or PlatformIO + ESP32 board package
-
+```
 ````markdown
 ## 📱 Setup – Mobile App
 
@@ -121,5 +121,6 @@ For academic or research purposes, please contact the project owner before reuse
 
 **All Rights Reserved**
 No part of this project may be copied, modified, distributed, or used without explicit written permission from the author(s).
+
 
 
