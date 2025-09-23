@@ -1,5 +1,4 @@
 
-```markdown
 # Smart Shower – Graduation Project
 
 [![Expo](https://img.shields.io/badge/Expo-React%20Native-blue?logo=expo)](https://expo.dev/)  
@@ -150,5 +149,6 @@ No part of this project may be copied, modified, distributed, or used without ex
 ```
 
 ```
+
 
 
