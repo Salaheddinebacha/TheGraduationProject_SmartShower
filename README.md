@@ -73,9 +73,6 @@ TheGraduationProject\_SmartShower/
    ```bash
    npx expo start
    ```
-3. Open the app in Expo Go (scan the QR code) or run on an emulator.
-
----
 
 ## 🔧 Setup – Firmware
 
@@ -145,10 +142,10 @@ No part of this project may be copied, modified, distributed, or used without ex
 
 ---
 
-```
-```
+
 
 ```
+
 
 
 
