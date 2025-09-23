@@ -24,7 +24,7 @@ This project combines a **React Native (Expo)** mobile application with **Arduin
 
 ## 📂 Repository Structure
 
-```
+
 
 TheGraduationProject\_SmartShower/
 ├── App.js
@@ -145,6 +145,7 @@ No part of this project may be copied, modified, distributed, or used without ex
 
 
 ```
+
 
 
 
