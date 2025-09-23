@@ -1,10 +1,11 @@
 
+```markdown
 # Smart Shower – Graduation Project
 
 [![Expo](https://img.shields.io/badge/Expo-React%20Native-blue?logo=expo)](https://expo.dev/)  
 [![Arduino](https://img.shields.io/badge/Arduino-Sketch-green?logo=arduino)](https://www.arduino.cc/)  
 [![ESP32](https://img.shields.io/badge/ESP32-Microcontroller-orange?logo=espressif)](https://www.espressif.com/)  
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red.svg)](LICENSE)
 
 A mobile-controlled **smart shower system** that monitors usage and enables safe, efficient water and energy management.  
 This project combines a **React Native (Expo)** mobile application with **Arduino/ESP32 firmware** to collect sensor data and control actuators.
@@ -75,8 +76,6 @@ TheGraduationProject\_SmartShower/
    ```
 3. Open the app in Expo Go (scan the QR code) or run on an emulator.
 
-> Tip: Adjust `.env` (if added) to configure device protocol (BLE/Wi-Fi) and base URLs.
-
 ---
 
 ## 🔧 Setup – Firmware
@@ -127,17 +126,15 @@ TheGraduationProject\_SmartShower/
 
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Commit changes with clear messages
-4. Open a Pull Request
+This is a **graduation project** and not currently open for external contributions.
+For academic or research purposes, please contact the project owner before reuse.
 
 ---
 
 ## 📜 License
 
-This project is distributed under the license of your choice (MIT recommended).
-If no license is specified, it remains **All Rights Reserved**.
+**All Rights Reserved**.
+No part of this project may be copied, modified, distributed, or used without explicit written permission from the author(s).
 
 ---
 
@@ -151,4 +148,7 @@ If no license is specified, it remains **All Rights Reserved**.
 
 ```
 ```
+
+```
+
 
